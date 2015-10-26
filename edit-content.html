@@ -1,0 +1,9 @@
+<div class="edit-content" ng-transclude contenteditable="{{isEditable}}" ng-class="{editable: isEditable}">
+    
+</div>
+
+
+<div class="edit-buttons">
+    <button ng-click="isEditable=true" ng-show="!isEditable">Edit</button>
+    <button ng-click="isEditable=false" ng-show="isEditable">Save</button>
+</div>
